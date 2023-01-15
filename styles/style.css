@@ -642,11 +642,11 @@ input[type="submit" i] {
         margin-bottom: 30px;
     }
 
-    .card {      
+    .card {
         justify-content: center;
-        align-items: center;  
-        width: 120%;      
-        margin: 0 auto;        
+        align-items: center;
+        width: 120%;
+        margin: 0 auto;
         margin-bottom: 10px;
     }
 
@@ -696,7 +696,7 @@ input[type="submit" i] {
     }
 
     .sponsors-logo>img {
-        display: flex;               
+        display: flex;
         width: 50%;
         height: 50%;
         align-items: center;
@@ -708,7 +708,7 @@ input[type="submit" i] {
     .social-contact {
         width: 100%;
         align-items: center;
-        text-align: center;        
+        text-align: center;
     }
 
     .social-icons {
@@ -735,12 +735,12 @@ input[type="submit" i] {
         margin-top: 20px;
     }
 
-    input[type="submit" i] {        
+    input[type="submit" i] {
         padding: 10px;
         margin: 0 auto;
         justify-content: center;
         align-items: center;
-        
+
     }
 }
 
@@ -748,75 +748,101 @@ input[type="submit" i] {
 
 @media only screen and (min-width: 577px) and (max-width: 992px) {
 
-    .primary-menu{
+    .primary-menu {
         margin: 0 auto;
         margin-top: 50px;
         display: flex;
         justify-content: space-around;
         align-items: center;
     }
-.nav-menu{
-    gap: 10px;
-}
-.primary-menu ul {
-    display: flex;
-    list-style: none;
-    gap: 0px;
-    justify-content: space-evenly;
-    flex-wrap: wrap;
-    flex-direction: row;
-}
-.quick-list-section, .love-enjoy{
+
+    .nav-menu {
+        gap: 10px;
+    }
+
+    .primary-menu ul {
+        display: flex;
+        list-style: none;
+        gap: 0px;
+        justify-content: space-evenly;
+        flex-wrap: wrap;
+        flex-direction: row;
+    }
+
+    .quick-list-section,
+    .love-enjoy {
         display: flex;
         flex-direction: column;
         margin: 0 auto;
         justify-content: center;
         align-items: center;
     }
+
     .primary-banner img {
         background-repeat: no-repeat;
         width: 85%;
         height: auto;
         border-radius: 10px;
     }
-    .love-enjoy{
+
+    .love-enjoy {
         display: flex;
-        flex-direction: column-reverse;        
+        flex-direction: column-reverse;
         margin: 0 auto;
         justify-content: center;
         align-items: center;
     }
-    
+
     .love-btn1 {
         position: relative;
         transform: translateX(0px) translateY(-780px);
     }
-    .love-title, h1 {
+
+    .love-title,
+    h1 {
         margin-top: 100px;
         border-left: 5px solid #FF900E;
         font-weight: 700;
         font-size: 45px;
     }
 
-    .fact-boxes{
-        
+    .fact-boxes {
         display: grid;
         grid-template-columns: repeat(2, 1fr);
         gap: 25px;
     }
-    .facts-title {        
+
+    .facts-title {
         margin-top: 100px;
     }
 
-    .sponsor-section, .sponsors-logo, .contact-info{
+    .sponsor-section,
+    .sponsors-logo,
+    .contact-info {
         display: flex;
         flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
     }
-.social-icon{
-    padding: 30px;
-}
-    .contact{
+
+    .social-icon {
+        padding: 30px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        text-align: center;
+    }
+    .contact-title {
+        text-align: center;
+        font-weight: 700;
+        font-size: 35px;
+        margin-bottom: 50px;
+    }
+    .contact {
         margin: 100px 0;
     }
 }
+
 /* Project Styles End Here! Happy Coding */
