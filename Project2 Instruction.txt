@@ -1,0 +1,15 @@
+Git Project Clone link: https://github.com/ProgrammingHero1/g3-architects.git
+Final Project Code Git Link: https://github.com/tarequemusa/phproject2-g3-architects
+Live Site Git Link: 
+
+1. Architect: g3-architects (Clone)
+2. No CSS Framework
+3. Use Margin and Padding by Figma
+4. Menu: Column for Mobile
+5. Text/image/button for Mobile
+6. Some Facts Section (Animation and Transformation)
+7. Meaningful Extra Section for Bonus after Sponsor Section.
+8. Mobile Responsivness for Bonus (Bootstrap Brakpoint)
+9. Architects Button up for Bonus
+10.On Time Submit by 15 Jan 2023 : 11.59 PM
+
