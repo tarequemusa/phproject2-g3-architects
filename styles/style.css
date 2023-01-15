@@ -19,12 +19,15 @@ body {
     display: flex;
     justify-content: space-around;
     align-items: center;
-    margin-top: 63px;
+    margin-top: 60px;
 }
 
 .project-title {
     font-weight: 700;
     font-size: 45px;
+    font-style: normal;
+    color: #131313;
+    margin-bottom: 2%;
 }
 
 .primary-menu ul {
@@ -68,8 +71,8 @@ body {
 }
 
 .brand-title {
-    font-weight: 700;
-    font-size: 64px;
+    font-weight: 900;
+    font-size: 3rem;
     color: #131313;
     margin-bottom: 10px;
 }
@@ -85,17 +88,18 @@ body {
     width: 180px;
     height: 64px;
     font-weight: 600;
-    font-size: 20px;
-    border-radius: 8px;
     background: #FF900E;
+    padding: 20px 25px;
+    border-radius: 8px;
     border: none;
 }
 
 input[type="button" i] {
     background-color: #FF900E;
     border: none;
+    font-size: 20px;
     color: #FFFFFF;
-    padding: 10px 20px;
+    margin: 0 auto;
 }
 
 /* Primary Banner Top Styles */
@@ -107,7 +111,7 @@ input[type="button" i] {
     text-align: center;
     /* background-image: url(../images/banner.png); */
     background-repeat: no-repeat;
-    border-radius: 8px;
+    border-radius: 15px;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -118,21 +122,22 @@ input[type="button" i] {
 /* Quick list Feature Section Styles Start */
 .quick-feature-section {
     background-color: #FFFFFF;
-
 }
 
 .team-images {
     display: grid;
     grid-template-columns: repeat(2, 1fr);
-    gap: 15px;
     margin-top: 65px;
+    margin: 0 auto;
+    align-items: center;
+    margin-top: 100px;
 }
 
 .team-image {
     width: 250px;
     height: 250px;
-    padding: 5px;
-    margin-bottom: 0;
+    padding: 0px;
+    margin: 10px;
 }
 
 .quick-list-section {
@@ -140,7 +145,6 @@ input[type="button" i] {
     justify-content: center;
     margin: 0 auto;
     align-items: center;
-    padding-bottom: 100px;
 }
 
 .quick-list-images {
@@ -187,10 +191,9 @@ input[type="button" i] {
 .love-enjoy {
     display: flex;
     margin: 0 auto;
-    justify-content: center;
+    justify-content: space-evenly;
     align-items: center;
     width: 80%;
-    margin-top: -200px;
 }
 
 .love-enjoy-info {
@@ -199,7 +202,7 @@ input[type="button" i] {
     width: 586px;
     height: 682px;
     margin: 0 auto;
-    margin-top: 200px;
+
 }
 
 .love-title {
@@ -231,17 +234,18 @@ h4 {
     justify-content: center;
     align-items: center;
     margin: 0 auto;
-    margin-top: 180px;
+    margin-top: 150px;
 }
 
 .love-image>img {
-    max-width: 80%;
+    max-width: 70%;
     height: auto;
+    margin-left: 10%;
 }
 
 .card {
-    width: 514px;
-    height: 111px;
+    width: 500px;
+    height: 130px;
     margin: 20px;
     padding: 30px;
     background: #FFFFFF;
@@ -255,13 +259,12 @@ h4 {
 }
 
 .love-btn {
-    width: 220px;
-    height: 120px;
+    width: 250px;
+    height: 150px;
     border-radius: 8px;
     background: #FF900E;
     border: none;
-    padding: 30px;
-    padding-bottom: 20px;
+    padding: 40px;
     margin: 0 auto;
     justify-content: center;
     align-items: center;
@@ -277,14 +280,14 @@ h4 {
 .ten-year {
     text-align: center;
     font-weight: 700;
-    font-size: 35px;
+    font-size: 45px;
 
 }
 
 .exp {
     text-align: center;
     font-weight: 400;
-    font-size: 15px;
+    font-size: 20px;
 
 }
 
@@ -300,6 +303,7 @@ h4 {
     font-size: 45px;
     line-height: 53px;
     color: #131313;
+    margin-bottom: 1%;
 }
 
 .fact-description {
@@ -343,12 +347,13 @@ h4 {
 }
 
 /* Sponsors Section Styles */
+
 .sponsor-info {
     width: 542px;
     text-align: center;
     margin: 0 auto;
     margin-bottom: 50px;
-    margin-top: 50px;
+    margin-top: 100px;
 }
 
 .sponsors-logo {
@@ -362,12 +367,12 @@ h4 {
 
 }
 
-.sponsor-logo > img {
+.sponsor-logo>img {
     position: relative;
-    width: 80%;
+    width: 60%;
     height: auto;
     text-align: center;
-    margin-bottom: 40px;
+    margin-bottom: 20px;
 }
 
 .sponsor-title {
@@ -529,6 +534,13 @@ input[type="submit" i] {
         flex-direction: column;
     }
 
+    .project-title,
+    .brand-new,
+    h2 {
+        font-size: 2.5rem;
+        font-weight: 900;
+    }
+
     .nav-menu,
     ul li {
         display: flex;
@@ -545,10 +557,15 @@ input[type="submit" i] {
         padding: 0px;
     }
 
+    .brand-new,
+    h2 {
+        font-size: 1.5rem;
+        font-weight: 900;
+    }
+
     .brand-new {
         display: flex;
         flex-direction: column;
-        font-size: 8vw;
         width: 100%;
         height: auto;
         padding: 0 20px;
@@ -557,18 +574,19 @@ input[type="submit" i] {
         margin-bottom: 10%;
     }
 
-    .primary-banner img {            
-        background-repeat: no-repeat; 
-        width: 80%;
-        height:auto;             
+    .primary-banner img {
+        background-repeat: no-repeat;
+        width: 85%;
+        height: auto;
+        border-radius: 10px;
     }
 
     .quick-feature-section {
-        
+        position: relative;
         align-items: center;
         max-width: 100%;
         margin: 0 auto;
-        padding: 0 20px;
+        padding: 20px;
     }
 
     .quick-list-section {
@@ -576,7 +594,7 @@ input[type="submit" i] {
         flex-direction: column-reverse;
     }
 
-     .btn-primary {
+    .btn-primary {
         display: flex;
         flex-direction: column;
         text-align: center;
@@ -584,12 +602,13 @@ input[type="submit" i] {
         max-width: 100%;
     }
 
-    .quick-list-info{
+    .quick-list-info {
         display: flex;
         flex-direction: column;
         text-align: center;
         align-items: center;
         justify-content: center;
+        margin: 0 auto;
         width: 100%;
     }
 
@@ -604,25 +623,35 @@ input[type="submit" i] {
         flex-direction: column;
     }
 
+    /* Love and Enjoy CSS Styles */
+
     .love-enjoy {
         display: flex;
         flex-direction: column;
-
+        margin: 0 auto;
+        align-items: center;
+        justify-content: center;
     }
 
     .love-enjoy-info {
-        width: 80%;
+        margin-top: 25px;
+        width: 85%;
     }
 
-    .card {
-        margin: 0 auto;
-        margin-bottom: 20px;
-        width: 130%;
-        font-size: 4vw;
+    .love-description {
+        margin-bottom: 30px;
+    }
+
+    .card {      
+        justify-content: center;
+        align-items: center;  
+        width: 120%;      
+        margin: 0 auto;        
+        margin-bottom: 10px;
     }
 
     .card>small {
-        font-size: 2vw;
+        font-size: 10px;
     }
 
     .love-pic img {
@@ -632,7 +661,7 @@ input[type="submit" i] {
         -webkit-background-size: cover;
         background-position: center center;
         background-repeat: no-repeat;
-        margin-top: 30%;
+        margin-top: 60%;
     }
 
     .love-btn1 {
@@ -666,19 +695,20 @@ input[type="submit" i] {
         margin: 0 auto;
     }
 
-    .sponsors-logo > img {
-        margin-bottom: 0;
-        gap: 0;
+    .sponsors-logo>img {
+        display: flex;               
         width: 50%;
         height: 50%;
+        align-items: center;
+        justify-content: center;
+        margin: 0 auto;
     }
 
     .contact-info>.contact-form,
     .social-contact {
         width: 100%;
         align-items: center;
-        text-align: center;
-
+        text-align: center;        
     }
 
     .social-icons {
@@ -699,6 +729,94 @@ input[type="submit" i] {
         width: 60%;
         height: 60%;
     }
+
+    .copyright {
+        padding: 5px;
+        margin-top: 20px;
+    }
+
+    input[type="submit" i] {        
+        padding: 10px;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+        
+    }
 }
 
-/* Project Styels End Here! Happy Coding */
+/* Tablet Responsive Code Starts Here */
+
+@media only screen and (min-width: 577px) and (max-width: 992px) {
+
+    .primary-menu{
+        margin: 0 auto;
+        margin-top: 50px;
+        display: flex;
+        justify-content: space-around;
+        align-items: center;
+    }
+.nav-menu{
+    gap: 10px;
+}
+.primary-menu ul {
+    display: flex;
+    list-style: none;
+    gap: 0px;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    flex-direction: row;
+}
+.quick-list-section, .love-enjoy{
+        display: flex;
+        flex-direction: column;
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    .primary-banner img {
+        background-repeat: no-repeat;
+        width: 85%;
+        height: auto;
+        border-radius: 10px;
+    }
+    .love-enjoy{
+        display: flex;
+        flex-direction: column-reverse;        
+        margin: 0 auto;
+        justify-content: center;
+        align-items: center;
+    }
+    
+    .love-btn1 {
+        position: relative;
+        transform: translateX(0px) translateY(-780px);
+    }
+    .love-title, h1 {
+        margin-top: 100px;
+        border-left: 5px solid #FF900E;
+        font-weight: 700;
+        font-size: 45px;
+    }
+
+    .fact-boxes{
+        
+        display: grid;
+        grid-template-columns: repeat(2, 1fr);
+        gap: 25px;
+    }
+    .facts-title {        
+        margin-top: 100px;
+    }
+
+    .sponsor-section, .sponsors-logo, .contact-info{
+        display: flex;
+        flex-direction: column;
+    }
+.social-icon{
+    padding: 30px;
+}
+    .contact{
+        margin: 100px 0;
+    }
+}
+/* Project Styles End Here! Happy Coding */
